@@ -1,0 +1,31 @@
+.section-title {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: #fff;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: rgb(132, 179, 240);
+    z-index: 1;
+}
+.carousel-item {
+    height: 90vh;
+}
+.padding-100 {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.text-colored {
+    color: rgb(132, 179, 240);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    .carousel-item {
+        height: 40vh;
+    }
+}
